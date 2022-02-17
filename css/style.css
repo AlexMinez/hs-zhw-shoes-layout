@@ -254,6 +254,55 @@ a.gplus:active { background-position: -80px -80px; }
 
 /********** Sections **********/
 
+.shadow {
+  display: block;
+}
+
+.shadow:after {
+content: "";
+display: block;
+clear:both;
+height: 0;
+line-height: 0;
+
+
+}
+.main {
+  float: left;
+  width: 66%; 
+  margin-bottom: 2%;
+}
+
+
+.side {
+  float: right;
+  width: 32%;
+  
+}
+.clear {
+  columns: 3;
+}
+
+
+
+
+
+.border_right1 {
+  float: left;
+  width: 33%;
+}
+.border_right3 {
+  float: right;
+  width: 33%;
+}
+.border_right2 {
+  float: right;
+  width: 33%;
+}
+
+
+
+
 section {
   padding: 20px;
   background: white;
